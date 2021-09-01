@@ -4,14 +4,12 @@ body {
     text-size-adjust: auto;
     background-repeat: repeat, no-repeat;
     color: white;
+    
 }
 #logo {
     background-color: white;
-    width: 75%;
-    padding: 50px;
+    width: 100%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 30px;
-    margin-left: 35px;
     text-align: center;
     
 
@@ -20,11 +18,11 @@ body {
 .menu-container{
 color: rgb(255, 0, 0);
 border: white;
-padding-top: 30px;
-display:inline;
-font-size: xx-large;
-text-align: center;
-margin: 10px;
+padding-top: 150px;
+font-size: x-large;
+text-align: left;
+padding-left: 50px;
+
 
 }   
 
@@ -32,18 +30,21 @@ margin: 10px;
     display: inline;
 
 }
-
-#img1{
+.img{
    display: inline;
-   height: 10px;
-   width: 50px;
+   line-height: center;
+   display: inline;
+   margin: 65px;
+   padding-left: 100px;
+
+}
+#article{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
 }
 
-#img2{
-    text-align: center;
-    width: 50px;
- }
- #img3{
-    text-align: center;
-    width: 50px;
- }
+a:link{
+    color: gold;
+    font-size: 15px;
+}
